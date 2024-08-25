@@ -1,0 +1,92 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Tailwind CSS Base, Components, and Utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root Variables */
+:root {
+
+  --fontDefaults: 'Poppins', sans-serif;
+  --fontLogo: 'Kanit', sans-serif;
+}
+
+/* Global Styles */
+html, body {
+  font-family: var(--fontDefaults);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: #ffffff;
+  color: #000000;
+    
+  }
+  
+  
+    
+  
+
+
+
+
+/* beranda */
+
+.hero-img  {
+  max-width: 450px;
+  max-height: 500px; /* Tambahkan satuan 'px' untuk max-height */
+  width: 100%;
+  border-radius: 1.5rem; /* Sesuaikan dengan class Tailwind 'rounded-3xl' */
+  animation: bounceTop 3s ease infinite;
+  opacity: 1;
+  transition: opacity 1s ease;
+  margin-top: 1rem; /* Add margin to push the image down */
+}
+
+
+@keyframes bounceTop {
+  0%, 100% {
+      transform: translateY(-20px);
+      animation-timing-function: ease-in-out;
+  }
+  50% {
+      transform: translateY(0);
+      animation-timing-function: ease-in-out;
+  }
+}
+
+.home_social a{
+  margin-right: 20px;
+}
+
+.custom-max-width {
+  max-width: max-content;
+  /* max-height: 420px; */
+}
+
+
+/* end beranda */
+nav ul {
+    display: flex;
+    gap: 1rem; /* Mengurangi jarak antar link */
+    margin-right: 1rem; /* Optional, jika butuh menyesuaikan jarak */
+}
+
+nav ul li a {
+    padding: 0.5rem 0.75rem; /* Mengurangi padding antar link */
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav a.text-xl {
+    margin-left: 0.5rem; /* Mengurangi jarak logo */
+}
+
+
+
+
+
+
+
+
