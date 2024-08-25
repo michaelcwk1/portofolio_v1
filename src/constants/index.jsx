@@ -57,7 +57,7 @@ export const PROJECTS = [
     id: 2,
     name: "Brand Website",
     description:
-    "A brand website developed with Next.js and Markdown, designed to showcase products and tell the brand's story. It includes a rich text editor for content creation, a tag system for organizing posts, and user authentication for secure access."
+    "A brand website developed with Next.js and Markdown, designed to showcase products and tell the brand's story."
     ,
       // "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
     image: projectImage2,
