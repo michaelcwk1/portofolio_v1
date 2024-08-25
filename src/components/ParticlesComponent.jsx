@@ -63,7 +63,7 @@
             default: "bounce",
             },
             random: true,
-            speed: 1,
+            speed: 4,
             straight: false,
         },
         number: {
@@ -76,12 +76,12 @@
             value: 0.5, // Nilai opacity default untuk warna partikel
             random: {
             enable: true, // Aktifkan opacity acak
-            minimumValue: 0.5, // Nilai minimum opacity
+            minimumValue: 5.5, // Nilai minimum opacity
             },
             animation: {
             enable: true, // Aktifkan animasi opacity
-            speed: 1, // Kecepatan animasi
-            minimumValue: 0.3, // Nilai minimum opacity saat animasi
+            speed: 2, // Kecepatan animasi
+            minimumValue: 0.4, // Nilai minimum opacity saat animasi
             sync: false, // Sinkronisasi animasi antara partikel
             },
         },

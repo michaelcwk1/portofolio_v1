@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const WorkExperience = () => {
     return (
-        <section className="flex flex-col py-20  px-2  max-w-7xl mx-auto " id="work">
+        <section className="flex flex-col py-20 max-w-7xl mx-auto " id="work">
             <motion.h2 
             initial={{ opacity: 0, y: -20 }}
             whileInView={{  opacity: 1, y: 0 }}

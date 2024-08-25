@@ -136,7 +136,7 @@ export const EXPERIENCES = [
   {
     title: "Video Content Creator",
     company: "@eilasya",
-    duration: "September 2021 - January 2023",
+    duration: "September 2021 - September 2023",
     description:
       "As a Video Content Creator, I specialized in producing anime content, leveraging trending algorithms to reach a wide audience. My work included various edits and design enhancements that resonated with viewers. I managed a TikTok account with 220,000 followers under the username @eilasya, though it was unfortunately hacked. I continue to engage with my audience through my active Instagram account @eilasya_ , where I share creative content and maintain a strong online presence.",
   },

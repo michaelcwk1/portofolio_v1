@@ -14,7 +14,7 @@ const Hero = () => {
     { src: youtubeLogo, alt: "Discord" },
   ];
   return (
-    <section className="flex flex-wrap items-center min-h-screen px-4 lg:px-16">
+    <section className="flex flex-wrap items-center min-h-screen  lg:px-16">
       <motion.div
         initial={{ opacity: 0, x: -150 }}
         animate={{ opacity: 1, x: 0 }}

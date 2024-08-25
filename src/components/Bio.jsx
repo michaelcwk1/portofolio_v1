@@ -4,7 +4,7 @@
 
     const EducationTimeline = () => {
     return (
-        <section className="flex flex-col py-20 px-6 max-w-7xl mx-auto" id="education">
+        <section className="flex flex-col py-20 px-2 max-w-7xl mx-auto" id="education">
         <motion.h2 
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +28,7 @@
             </div>
 
             {/* Right side - Timeline */}
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 p-2">
             <div className="relative border-l-2 border-gray-200  pl-8">
                 {EDUCATION.map((edu, index) => (
                 <motion.div 
