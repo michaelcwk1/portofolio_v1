@@ -1,8 +1,6 @@
 import {
-  FaXTwitter,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
   FaDiscord,
   FaInstagram,
 } from "react-icons/fa6";
@@ -10,9 +8,6 @@ import {
 import projectImage1 from "../assets/project1.png";
 import projectImage2 from "../assets/project2.png";
 import projectImage3 from "../assets/project3.png";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
 
 
 import { RiReactjsLine } from "react-icons/ri";
