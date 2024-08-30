@@ -70,7 +70,7 @@ const Navbar = () => {
                         </button>
 
                         {/* Dropdown Mobile Menu */}
-                        <div className={`absolute right-0 mt-6 w-48 bg-white border border-gray-200 rounded-md shadow-lg transition-all duration-300 ${isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
+                        <div className={`absolute right-0 mt-6 w-48 bg-white border border-gray-200 rounded-md shadow-lg transition-all duration-300 `}>
                             <ul className="flex flex-col gap-0">
                                 {NAVIGATION_LINKS.map((item, index) => (
                                     <li key={index}>
