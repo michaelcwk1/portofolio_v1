@@ -6,7 +6,7 @@ import {
 } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.png";
-import projectImage2 from "../assets/project2.png";
+import i22 from "../assets/i2.png";
 import projectImage3 from "../assets/project3.png";
 
 
@@ -60,8 +60,8 @@ export const PROJECTS = [
     "A brand website developed with Next.js and Markdown, designed to showcase products and tell the brand's story."
     ,
       // "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
-    image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    image: i22,
+    githubLink: "https://slice-o-michaelcwks-projects.vercel.app/",
   },
   {
     id: 3,
@@ -69,7 +69,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://michael-cwk.vercel.app/",
   },
   // {
   //   id: 4,

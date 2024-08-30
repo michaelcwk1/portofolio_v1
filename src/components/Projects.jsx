@@ -52,7 +52,7 @@ const Projects = () => {
                 className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300"
               >
                 <div className="flex items-center">
-                  <span>Soon on Github</span>
+                  <span>Go</span>
                   <MdArrowOutward />
                 </div>
               </a>
