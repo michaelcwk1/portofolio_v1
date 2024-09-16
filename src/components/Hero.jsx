@@ -53,7 +53,7 @@ const Hero = () => {
         {HERO.description}
     </p>
     {/* Social Icons */}
-    <div className="home_social flex justify-center lg:justify-start p-2 ml-6 gap-2 mt-2 lg:mt-2">
+    <div className="home_social flex justify-center lg:justify-start p-2 ml-6  gap-2 mt-2 lg:mt-2">
         {socialLinks.map((link, index) => (
             <motion.a
               key={index}
